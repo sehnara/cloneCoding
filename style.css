@@ -87,7 +87,12 @@ body {
   width: 430px;
   height: 600px;
   margin: var(--size-margin) 0%;
+  overflow: hidden scroll;
 }
+.items::-webkit-scrollbar {
+  display: none;
+}
+
 .item {
   width: 98%;
   margin: 5px auto;
